@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style type="text/css">
+        .zoom {
+            transition: transform .3s;
+            /* Animation */
+            margin: 0 auto;
+        }
+
+        .zoom:hover {
+            transform: scale(1.2);
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        .imvustylez_products_marquee {
+            position: absolute;
+            top: 650px;
+            left: 120px;
+        }
+
+        .background_home {
+            width: 1000px;
+            height: 3142px;
+        }
+
+        .avatar_picture {
+            position: absolute;
+            width: 160px;
+            height: 220px;
+            top: 65px;
+            left: 420px;
+        }
+
+        .avatar_picture_father {
+            position: absolute;
+            width: 160px;
+            height: 220px;
+            top: 1300px;
+            left: 200px;
+        }
+
+        .avatar_picture_mother {
+            position: absolute;
+            width: 160px;
+            height: 220px;
+            top: 1300px;
+            left: 400px;
+        }
+
+        .avatar_picture_grandFather {
+            position: absolute;
+            width: 160px;
+            height: 220px;
+            top: 1300px;
+            left: 600px;
+        }
+
+        .father_pic {
+            width: 160px;
+            height: 220px;
+        }
+
+        .mother_pic {
+            width: 160px;
+            height: 220px; 
+        }
+
+        .gf_pic {
+            width: 160px;
+            height: 220px;
+        }
+
+        .aomy_lee {
+            position: absolute;
+            top: 345px;
+            left: 405px;
+        }
+
+        .menu_block {
+            position: absolute;
+            top: 170px;
+            left: 730px;
+        }
+
+        .menu_support {
+            position: absolute;
+            top: 235px;
+            left: 730px;
+        }
+
+
+        .menu_shop {
+            position: absolute;
+            top: 300px;
+            left: 730px;
+        }
+
+
+        .menu_welcome {
+            position: absolute;
+            top: 170px;
+            left: 230px;
+        }
+
+
+        .menu_dm {
+            position: absolute;
+            top: 235px;
+            left: 230px;
+        }
+
+
+        .menu_add_me {
+            position: absolute;
+            top: 300px;
+            left: 230px;
+        }
+
+        .welcome_text {
+            position: absolute;
+            display: block;
+            overflow: auto; 
+            height: 700px; 
+            width: 300px;
+            top: 500px;
+            left: 160px;
+        }
+
+        .support_text {
+            position: absolute;
+            display: none;
+            top: 500px;
+            left: 160px;
+        }
+
+        .insta_link {
+            position: absolute;
+            top: 2300px;
+            left: 200px; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <marquee class="imvustylez_products_marquee" width="500" height="100" scrollamount="3" direction="left"
+            behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+            <div style="width:642px">
+                <script type="text/javascript"
+                    src="https://gaf210.gafcodes.com/newprodsbanner/filtered_dev_panel.js.php?dev_id=216369866&amp;pn=new&amp;q=6"></script>
+                <style type="text/css">
+                    .productbox {
+                        height: 80px;
+                        width: 100px;
+                        text-align: center;
+                        float: left;
+                        margin-left: 5px;
+                        margin-bottom: 10px
+                    }
+
+                    .productbox img {
+                        border: none;
+                        width: 90%;
+                        height: 90%;
+                    }
+                </style>
+            </div>
+        </marquee>
+    </div>
+
+    <div>
+        <img class="background_home" src="https://i.imgur.com/Pamhbsg.png" width="1000" height="1142" border="0"
+            usemap="#Valen">
+    </div>
+
+    <div>
+        <h1 class="aomy_lee">AOMY LEE</h1>
+    </div>
+
+    <div>
+        <img class="avatar_picture" src="https://www.imvu.com/catalog/web_av_pic.php?u=216369866">
+    </div>
+
+    <div>
+        <p class="menu_block">Block</p>
+    </div>
+
+    <div>
+        <a href="javascript:void(0);" class="menu_support" onclick="ocultar()">Support</a>
+    </div>
+
+    <div>
+        <a class="menu_shop" href="http://www.imvu.com/shop/web_search.php?manufacturers_id=216369866">Shop</a>
+    </div>
+
+    <div>
+        <a href="javascript:void(0);" class="menu_welcome" onclick="mostrar()">Welcome</a>
+        <div>
+            <h3 class="welcome_text" id="welcome_text">BIENVENIDOS A MI PÁGINA</h3>
+        </div>
+        <div>
+            <h3 class="support_text" id="support_text">APOYEN MI TIENDA!!♥</h3>
+        </div>
+    </div>
+
+    <div>
+        <a class="menu_dm" href="http://www.imvu.com/catalog/web_send_message_widget.php?recipient_id=216369866">DM</a>
+    </div>
+
+    <div>
+        <a class="menu_add_me" href="http://www.imvu.com/catalog/web_add_contact.php?contact=Aomy">Add Me</a>
+    </div>
+
+    <div>
+        <div class="avatar_picture_father">
+            <a href="https://www.imvu.com/catalog/web_mypage.php?user=31718115">ZyuD</a>
+            <img href="https://www.imvu.com/catalog/web_mypage.php?user=31718115" class="father_pic" src="https://www.imvu.com/catalog/web_av_pic.php?u=31718115">
+        </div>
+        <div class="avatar_picture_mother">
+            <a href="https://www.imvu.com/catalog/web_mypage.php?user=183059979">MoonReirah</a>
+            <img href="https://www.imvu.com/catalog/web_mypage.php?user=183059979" class="mother_pic" src="https://www.imvu.com/catalog/web_av_pic.php?u=183059979">
+        </div>
+        <div class="avatar_picture_grandFather">
+            <a href="https://www.imvu.com/catalog/web_mypage.php?user=76325471">BixieCat</a>
+            <img href="https://www.imvu.com/catalog/web_mypage.php?user=76325471" class="gf_pic" src="https://www.imvu.com/catalog/web_av_pic.php?u=76325471">
+        </div>
+    </div>
+
+    <div>
+        <a href="www.instagram.com/aomy.vu/" class="insta_link"> MI INSTAGRAM !!!</a>
+    </div>
+
+    <script src="https://drive.google.com/file/d/1C_cNcIBLx9ecAdto9TrO01BblidUGDAk/view?usp=sharing" type="text/javascript"></script>
+
+    <!-- https://drive.google.com/file/d/1C_cNcIBLx9ecAdto9TrO01BblidUGDAk/view?usp=sharing -->
+</body>
+
+</html>
